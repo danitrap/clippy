@@ -1,0 +1,16 @@
+.container {
+    max-width: 500px;
+}
+
+footer p {
+    height: 50px;
+    background: #eee;
+    padding-top: 15px;
+    padding-left: 15px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+.expiration {
+    padding-bottom: 10px;
+}

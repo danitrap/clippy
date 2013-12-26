@@ -1,14 +1,27 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    haml (4.0.4)
+      tilt
+    json (1.8.1)
     rack (1.5.2)
+    redis (3.0.6)
+    shotgun (0.9)
+      rack (>= 1.0)
     sinatra (1.1.0)
       rack (~> 1.1)
       tilt (~> 1.1)
+    sinatra-flash (0.3.0)
+      sinatra (>= 1.0.0)
     tilt (1.4.1)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
+  haml
+  json
+  redis
+  shotgun
   sinatra (= 1.1.0)
+  sinatra-flash
