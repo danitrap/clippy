@@ -13,8 +13,8 @@ post '/post' do
   charset = %w{ 2 3 4 6 7 9 a c d e f g h j k m n p q r t v w x y z}
   token = (0...3).map{ charset.to_a[rand(charset.size)] }.join
   REDIS.set(token, params[:text])
-  REDIS.expire(token, 3600) # 3600 secs = 1 hour
-  flash[:success] = "Ok!"
+  REDIS.expire(token, 60) # 3600 secs = 1 hour
+  flash[:success] = "Ok. Scan the QR code or copy the link below to share this item."
   redirect "/#{token}"
 end
 

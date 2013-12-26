@@ -11,6 +11,12 @@ footer p {
     border-radius: 10px;
 }
 
-.expiration {
+.field {
     padding-bottom: 10px;
+}
+
+.img-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }

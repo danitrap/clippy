@@ -13,7 +13,7 @@
         =render partial: "header"
         - unless flash.nil?
           - flash.each do |k,v|
-            %div{ class: "alert-#{k}" }
+            %div{ class: "alert alert-#{k}" }
               =v
         =yield
         %footer

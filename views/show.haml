@@ -1,9 +1,11 @@
-.expiration
+.field
+  %input.form-control.input-lg{ type: "text", value: request.url, autofocus: true }
+.well
+  =@text
+.expiration.field
   Expires in
   %span.countdown
     =@expire
   seconds.
-.well
-  =@text
-.text-center
-  %img.img-responsive{ src: "https://chart.googleapis.com/chart?cht=qr&chs=200x200&chl=#{request.url}" }
+.qr
+  %img.img-responsive.img-center{ src: "https://chart.googleapis.com/chart?cht=qr&chs=200x200&chl=#{request.url}" }
