@@ -1,5 +1,10 @@
 $(document).ready(function() {
 
+    $('.bookmark').hover(function() {
+        self = $(this);
+        self.select();
+    });
+
     var updateCounter = function() {
         var num = parseInt($('.countdown').text());
         if (num === 0) {

@@ -15,6 +15,10 @@ footer p {
     padding-bottom: 10px;
 }
 
+.btn-lg {
+    width: 100%;
+}
+
 .img-center {
     display: block;
     margin-left: auto;

@@ -1,6 +1,5 @@
 %form{ action: "/post", method: "post", id: "post" }
-  .row
-    .col-md-9.col-xs-9
-      %textarea.form-control{ id: "text", name: "text", placeholder: "Type any text to store" }
-    .col-md-3.col-xs.3
-      %input.btn.btn-success.btn-lg{ type: "submit", value: "Send" }
+  .field
+    %textarea.form-control{ id: "text", name: "text", placeholder: "Type any text to store" }
+  .field
+    %input.btn.btn-success.btn-lg{ type: "submit", value: "Store" }
