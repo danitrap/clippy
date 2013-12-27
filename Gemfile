@@ -6,4 +6,3 @@ gem 'sinatra-flash'
 gem 'redis'
 gem 'haml'
 gem 'json'
-gem 'shotgun', group: :development
