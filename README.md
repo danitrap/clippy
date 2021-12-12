@@ -12,7 +12,7 @@ Feel free to fork this repo, create a branch with your new features, and send me
 
 The MIT License (MIT)
 
-Copyright (c) 2013 Daniele Trapani
+Copyright (c) 2013-2021 Daniele Trapani
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
